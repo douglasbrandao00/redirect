@@ -1,0 +1,29 @@
+{
+  "name": "redirect",
+  "version": "1.0.0",
+  "description": "a bitly kind of app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo foi sem test mesmo",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasbrandao00/redirect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasbrandao00/redirect/issues"
+  },
+  "homepage": "https://github.com/douglasbrandao00/redirect#readme",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.23",
+    "git-commit-msg-linter": "^4.4.0",
+    "husky": "^8.0.2",
+    "typescript": "^4.9.4",
+    "vitest": "^0.25.8"
+  }
+}
