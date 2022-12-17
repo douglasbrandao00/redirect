@@ -4,7 +4,7 @@
   "description": "a bitly kind of app",
   "main": "index.js",
   "scripts": {
-    "test": "echo foi sem test mesmo",
+    "test": "vitest",
     "prepare": "husky install"
   },
   "repository": {
