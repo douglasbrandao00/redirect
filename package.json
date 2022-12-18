@@ -4,7 +4,9 @@
   "description": "a bitly kind of app",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --run",
+    "test:unit": "vitest  --dir test/unit",
+    "test:integration": "vitest --dir test/integration",
     "prepare": "husky install"
   },
   "repository": {
