@@ -11,9 +11,9 @@ export class Url {
   readonly value?: string
   constructor(urlCandidate: string) {
     try {
-      const url = new URL(urlCandidate)
-      this.value = url.href
-      
+      new URL(urlCandidate)
+      this.value = urlCandidate
+
     } catch (error) {
       if (error instanceof Error) {
         throw new InvalidUrlError(error.stack)
